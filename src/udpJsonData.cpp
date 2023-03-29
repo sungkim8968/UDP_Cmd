@@ -4,9 +4,9 @@
 
 namespace UdpJson
 {
-    json command_pos = {{"command", "pos"}, {"pos", 0}};
-    json command_vel = {{"command", "vel"}, {"vel", 0}};
-    json command_cur = {{"command", "cur"}, {"cur", 0}};
-    json request_cvp = {{"request", "cvp"},{"position", 0.0}, {"velocity", 0.0}, {"current", 0.0}};
+    json command_pos = {{"command", "pos"},{"name", ""}, {"pos", 0.0}};
+    json command_vel = {{"command", "vel"}, {"name", ""}, {"vel", 0.0}};
+    json command_cur = {{"command", "cur"}, {"name", ""}, {"cur", 0.0}};
+    json request_cvp = {{"request", "cvp"},{"name", ""}, {"position", 0.0}, {"velocity", 0.0}, {"current", 0.0}};
     json request_actuator_names = {{"request", "actuatour_names"}, {"actuatour_names", json::array({})}};
 }

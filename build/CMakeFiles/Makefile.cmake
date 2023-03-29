@@ -51,6 +51,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/udp_s.dir/DependInfo.cmake"
   "CMakeFiles/udp_c.dir/DependInfo.cmake"
+  "CMakeFiles/udp_c_pos.dir/DependInfo.cmake"
+  "CMakeFiles/udp_c_vel.dir/DependInfo.cmake"
+  "CMakeFiles/udp_c_vel_a2.dir/DependInfo.cmake"
+  "CMakeFiles/udp_c_cur.dir/DependInfo.cmake"
+  "CMakeFiles/udp_c_cvp.dir/DependInfo.cmake"
+  "CMakeFiles/udp_c_names.dir/DependInfo.cmake"
   "thirdParty/aios_api/CMakeFiles/aios.dir/DependInfo.cmake"
   "thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/DependInfo.cmake"
   "thirdParty/aios_api/src/peripheral/abs_encoder/test/CMakeFiles/encoder_test.dir/DependInfo.cmake"

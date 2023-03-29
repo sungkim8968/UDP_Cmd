@@ -29,7 +29,7 @@ void sendThread(int sockfd, struct sockaddr_in* cliaddr, socklen_t* clilen) {
             cerr << "Error sending data" << endl;
             continue;
         }
-    }
+    } 
 }
 
 int main() {

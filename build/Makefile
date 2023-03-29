@@ -188,6 +188,84 @@ udp_c/fast:
 .PHONY : udp_c/fast
 
 #=============================================================================
+# Target rules for targets named udp_c_pos
+
+# Build rule for target.
+udp_c_pos: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_c_pos
+.PHONY : udp_c_pos
+
+# fast build rule for target.
+udp_c_pos/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/build
+.PHONY : udp_c_pos/fast
+
+#=============================================================================
+# Target rules for targets named udp_c_vel
+
+# Build rule for target.
+udp_c_vel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_c_vel
+.PHONY : udp_c_vel
+
+# fast build rule for target.
+udp_c_vel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/build
+.PHONY : udp_c_vel/fast
+
+#=============================================================================
+# Target rules for targets named udp_c_vel_a2
+
+# Build rule for target.
+udp_c_vel_a2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_c_vel_a2
+.PHONY : udp_c_vel_a2
+
+# fast build rule for target.
+udp_c_vel_a2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/build
+.PHONY : udp_c_vel_a2/fast
+
+#=============================================================================
+# Target rules for targets named udp_c_cur
+
+# Build rule for target.
+udp_c_cur: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_c_cur
+.PHONY : udp_c_cur
+
+# fast build rule for target.
+udp_c_cur/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/build
+.PHONY : udp_c_cur/fast
+
+#=============================================================================
+# Target rules for targets named udp_c_cvp
+
+# Build rule for target.
+udp_c_cvp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_c_cvp
+.PHONY : udp_c_cvp
+
+# fast build rule for target.
+udp_c_cvp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/build
+.PHONY : udp_c_cvp/fast
+
+#=============================================================================
+# Target rules for targets named udp_c_names
+
+# Build rule for target.
+udp_c_names: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 udp_c_names
+.PHONY : udp_c_names
+
+# fast build rule for target.
+udp_c_names/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/build
+.PHONY : udp_c_names/fast
+
+#=============================================================================
 # Target rules for targets named aios
 
 # Build rule for target.
@@ -257,6 +335,12 @@ src/udpJsonData.o: src/udpJsonData.cpp.o
 src/udpJsonData.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_s.dir/build.make CMakeFiles/udp_s.dir/src/udpJsonData.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c.dir/build.make CMakeFiles/udp_c.dir/src/udpJsonData.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/src/udpJsonData.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/src/udpJsonData.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/src/udpJsonData.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/src/udpJsonData.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/src/udpJsonData.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/src/udpJsonData.cpp.o
 .PHONY : src/udpJsonData.cpp.o
 
 src/udpJsonData.i: src/udpJsonData.cpp.i
@@ -266,6 +350,12 @@ src/udpJsonData.i: src/udpJsonData.cpp.i
 src/udpJsonData.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_s.dir/build.make CMakeFiles/udp_s.dir/src/udpJsonData.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c.dir/build.make CMakeFiles/udp_c.dir/src/udpJsonData.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/src/udpJsonData.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/src/udpJsonData.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/src/udpJsonData.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/src/udpJsonData.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/src/udpJsonData.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/src/udpJsonData.cpp.i
 .PHONY : src/udpJsonData.cpp.i
 
 src/udpJsonData.s: src/udpJsonData.cpp.s
@@ -275,6 +365,12 @@ src/udpJsonData.s: src/udpJsonData.cpp.s
 src/udpJsonData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_s.dir/build.make CMakeFiles/udp_s.dir/src/udpJsonData.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c.dir/build.make CMakeFiles/udp_c.dir/src/udpJsonData.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/src/udpJsonData.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/src/udpJsonData.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/src/udpJsonData.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/src/udpJsonData.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/src/udpJsonData.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/src/udpJsonData.cpp.s
 .PHONY : src/udpJsonData.cpp.s
 
 src/udp_c.o: src/udp_c.cpp.o
@@ -301,6 +397,54 @@ src/udp_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c.dir/build.make CMakeFiles/udp_c.dir/src/udp_c.cpp.s
 .PHONY : src/udp_c.cpp.s
 
+src/udp_req_cvp.o: src/udp_req_cvp.cpp.o
+.PHONY : src/udp_req_cvp.o
+
+# target to build an object file
+src/udp_req_cvp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/src/udp_req_cvp.cpp.o
+.PHONY : src/udp_req_cvp.cpp.o
+
+src/udp_req_cvp.i: src/udp_req_cvp.cpp.i
+.PHONY : src/udp_req_cvp.i
+
+# target to preprocess a source file
+src/udp_req_cvp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/src/udp_req_cvp.cpp.i
+.PHONY : src/udp_req_cvp.cpp.i
+
+src/udp_req_cvp.s: src/udp_req_cvp.cpp.s
+.PHONY : src/udp_req_cvp.s
+
+# target to generate assembly for a file
+src/udp_req_cvp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/src/udp_req_cvp.cpp.s
+.PHONY : src/udp_req_cvp.cpp.s
+
+src/udp_req_names.o: src/udp_req_names.cpp.o
+.PHONY : src/udp_req_names.o
+
+# target to build an object file
+src/udp_req_names.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/src/udp_req_names.cpp.o
+.PHONY : src/udp_req_names.cpp.o
+
+src/udp_req_names.i: src/udp_req_names.cpp.i
+.PHONY : src/udp_req_names.i
+
+# target to preprocess a source file
+src/udp_req_names.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/src/udp_req_names.cpp.i
+.PHONY : src/udp_req_names.cpp.i
+
+src/udp_req_names.s: src/udp_req_names.cpp.s
+.PHONY : src/udp_req_names.s
+
+# target to generate assembly for a file
+src/udp_req_names.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/src/udp_req_names.cpp.s
+.PHONY : src/udp_req_names.cpp.s
+
 src/udp_s.o: src/udp_s.cpp.o
 .PHONY : src/udp_s.o
 
@@ -325,6 +469,102 @@ src/udp_s.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_s.dir/build.make CMakeFiles/udp_s.dir/src/udp_s.cpp.s
 .PHONY : src/udp_s.cpp.s
 
+src/udp_send_cur.o: src/udp_send_cur.cpp.o
+.PHONY : src/udp_send_cur.o
+
+# target to build an object file
+src/udp_send_cur.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/src/udp_send_cur.cpp.o
+.PHONY : src/udp_send_cur.cpp.o
+
+src/udp_send_cur.i: src/udp_send_cur.cpp.i
+.PHONY : src/udp_send_cur.i
+
+# target to preprocess a source file
+src/udp_send_cur.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/src/udp_send_cur.cpp.i
+.PHONY : src/udp_send_cur.cpp.i
+
+src/udp_send_cur.s: src/udp_send_cur.cpp.s
+.PHONY : src/udp_send_cur.s
+
+# target to generate assembly for a file
+src/udp_send_cur.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/src/udp_send_cur.cpp.s
+.PHONY : src/udp_send_cur.cpp.s
+
+src/udp_send_pos.o: src/udp_send_pos.cpp.o
+.PHONY : src/udp_send_pos.o
+
+# target to build an object file
+src/udp_send_pos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/src/udp_send_pos.cpp.o
+.PHONY : src/udp_send_pos.cpp.o
+
+src/udp_send_pos.i: src/udp_send_pos.cpp.i
+.PHONY : src/udp_send_pos.i
+
+# target to preprocess a source file
+src/udp_send_pos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/src/udp_send_pos.cpp.i
+.PHONY : src/udp_send_pos.cpp.i
+
+src/udp_send_pos.s: src/udp_send_pos.cpp.s
+.PHONY : src/udp_send_pos.s
+
+# target to generate assembly for a file
+src/udp_send_pos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/src/udp_send_pos.cpp.s
+.PHONY : src/udp_send_pos.cpp.s
+
+src/udp_send_vel.o: src/udp_send_vel.cpp.o
+.PHONY : src/udp_send_vel.o
+
+# target to build an object file
+src/udp_send_vel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/src/udp_send_vel.cpp.o
+.PHONY : src/udp_send_vel.cpp.o
+
+src/udp_send_vel.i: src/udp_send_vel.cpp.i
+.PHONY : src/udp_send_vel.i
+
+# target to preprocess a source file
+src/udp_send_vel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/src/udp_send_vel.cpp.i
+.PHONY : src/udp_send_vel.cpp.i
+
+src/udp_send_vel.s: src/udp_send_vel.cpp.s
+.PHONY : src/udp_send_vel.s
+
+# target to generate assembly for a file
+src/udp_send_vel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/src/udp_send_vel.cpp.s
+.PHONY : src/udp_send_vel.cpp.s
+
+src/udp_send_vel_a2.o: src/udp_send_vel_a2.cpp.o
+.PHONY : src/udp_send_vel_a2.o
+
+# target to build an object file
+src/udp_send_vel_a2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/src/udp_send_vel_a2.cpp.o
+.PHONY : src/udp_send_vel_a2.cpp.o
+
+src/udp_send_vel_a2.i: src/udp_send_vel_a2.cpp.i
+.PHONY : src/udp_send_vel_a2.i
+
+# target to preprocess a source file
+src/udp_send_vel_a2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/src/udp_send_vel_a2.cpp.i
+.PHONY : src/udp_send_vel_a2.cpp.i
+
+src/udp_send_vel_a2.s: src/udp_send_vel_a2.cpp.s
+.PHONY : src/udp_send_vel_a2.s
+
+# target to generate assembly for a file
+src/udp_send_vel_a2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/src/udp_send_vel_a2.cpp.s
+.PHONY : src/udp_send_vel_a2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -341,6 +581,12 @@ help:
 	@echo "... encoder_test"
 	@echo "... single_axis_motion"
 	@echo "... udp_c"
+	@echo "... udp_c_cur"
+	@echo "... udp_c_cvp"
+	@echo "... udp_c_names"
+	@echo "... udp_c_pos"
+	@echo "... udp_c_vel"
+	@echo "... udp_c_vel_a2"
 	@echo "... udp_s"
 	@echo "... src/spdlog/log.o"
 	@echo "... src/spdlog/log.i"
@@ -351,9 +597,27 @@ help:
 	@echo "... src/udp_c.o"
 	@echo "... src/udp_c.i"
 	@echo "... src/udp_c.s"
+	@echo "... src/udp_req_cvp.o"
+	@echo "... src/udp_req_cvp.i"
+	@echo "... src/udp_req_cvp.s"
+	@echo "... src/udp_req_names.o"
+	@echo "... src/udp_req_names.i"
+	@echo "... src/udp_req_names.s"
 	@echo "... src/udp_s.o"
 	@echo "... src/udp_s.i"
 	@echo "... src/udp_s.s"
+	@echo "... src/udp_send_cur.o"
+	@echo "... src/udp_send_cur.i"
+	@echo "... src/udp_send_cur.s"
+	@echo "... src/udp_send_pos.o"
+	@echo "... src/udp_send_pos.i"
+	@echo "... src/udp_send_pos.s"
+	@echo "... src/udp_send_vel.o"
+	@echo "... src/udp_send_vel.i"
+	@echo "... src/udp_send_vel.s"
+	@echo "... src/udp_send_vel_a2.o"
+	@echo "... src/udp_send_vel_a2.i"
+	@echo "... src/udp_send_vel_a2.s"
 .PHONY : help
 
 

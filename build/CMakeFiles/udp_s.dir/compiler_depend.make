@@ -902,9 +902,34 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  ../thirdParty/aios_api/include/aios/aios.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -922,20 +947,7 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h \
-  ../thirdParty/aios_api/include/aios/aios.h \
   /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_deque.h \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/memory \
@@ -945,8 +957,6 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   /usr/include/c++/11/bit \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
   /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
   /usr/include/c++/11/bits/atomic_base.h \
@@ -968,13 +978,7 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   /usr/include/c++/11/bits/hashtable.h \
   /usr/include/c++/11/bits/hashtable_policy.h \
   /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/bits/stream_iterator.h \
@@ -986,10 +990,6 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   /usr/include/c++/11/forward_list \
   /usr/include/c++/11/bits/forward_list.h \
   /usr/include/c++/11/bits/forward_list.tcc \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
   /usr/include/c++/11/valarray \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
@@ -1108,6 +1108,9 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   ../thirdParty/aios_api/thirdParty/SingleAxisMotion/thirdParty/ruckig/include/ruckig/output_parameter.hpp \
   ../thirdParty/aios_api/include/peripheral/abs_encoder/abs_encoder.h \
   ../thirdParty/aios_api/thirdParty/udp_socket/include/udp_socket.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
   ../thirdParty/aios_api/include/spdlog/log.h \
   ../thirdParty/aios_api/thirdParty/spdlog/include/spdlog/sinks/rotating_file_sink.h \
   ../thirdParty/aios_api/thirdParty/spdlog/include/spdlog/sinks/base_sink.h \
@@ -1192,8 +1195,13 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
   ../thirdParty/aios_api/thirdParty/spdlog/include/spdlog/version.h \
   ../thirdParty/aios_api/thirdParty/spdlog/include/spdlog/spdlog-inl.h \
   ../include/udpJsonData.h \
-  ../include/nlohmann/json.hpp
+  ../include/nlohmann/json.hpp \
+  ../include/udp_s.hpp
 
+
+../include/udp_s.hpp:
+
+/usr/include/netinet/in.h:
 
 ../thirdParty/aios_api/thirdParty/SingleAxisMotion/thirdParty/ruckig/include/ruckig/input_parameter.hpp:
 
@@ -1227,8 +1235,6 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
 
 /usr/include/c++/11/bits/deque.tcc:
 
-/usr/include/netinet/in.h:
-
 /usr/include/asm-generic/sockios.h:
 
 ../thirdParty/aios_api/thirdParty/SingleAxisMotion/thirdParty/ruckig/include/ruckig/output_parameter.hpp:
@@ -1238,6 +1244,10 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
 /usr/include/x86_64-linux-gnu/bits/socket_type.h:
 
 /usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/usr/include/c++/11/list:
 
 ../src/udp_s.cpp:
 
@@ -2146,6 +2156,8 @@ CMakeFiles/udp_s.dir/src/udp_s.cpp.o: ../src/udp_s.cpp \
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/bits/stl_list.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 

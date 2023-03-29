@@ -65,6 +65,12 @@ CMAKE_BINARY_DIR = /home/fu/ActuatorTest/udp_robot_state/build
 # The main recursive "all" target.
 all: CMakeFiles/udp_s.dir/all
 all: CMakeFiles/udp_c.dir/all
+all: CMakeFiles/udp_c_pos.dir/all
+all: CMakeFiles/udp_c_vel.dir/all
+all: CMakeFiles/udp_c_vel_a2.dir/all
+all: CMakeFiles/udp_c_cur.dir/all
+all: CMakeFiles/udp_c_cvp.dir/all
+all: CMakeFiles/udp_c_names.dir/all
 all: thirdParty/aios_api/all
 .PHONY : all
 
@@ -75,6 +81,12 @@ preinstall: thirdParty/aios_api/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/udp_s.dir/clean
 clean: CMakeFiles/udp_c.dir/clean
+clean: CMakeFiles/udp_c_pos.dir/clean
+clean: CMakeFiles/udp_c_vel.dir/clean
+clean: CMakeFiles/udp_c_vel_a2.dir/clean
+clean: CMakeFiles/udp_c_cur.dir/clean
+clean: CMakeFiles/udp_c_cvp.dir/clean
+clean: CMakeFiles/udp_c_names.dir/clean
 clean: thirdParty/aios_api/clean
 .PHONY : clean
 
@@ -136,7 +148,7 @@ CMakeFiles/udp_s.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
 CMakeFiles/udp_s.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_s.dir/build.make CMakeFiles/udp_s.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_s.dir/build.make CMakeFiles/udp_s.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=17,18,19,20 "Built target udp_s"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=35,36,37,38 "Built target udp_s"
 .PHONY : CMakeFiles/udp_s.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +193,168 @@ udp_c: CMakeFiles/udp_c.dir/rule
 CMakeFiles/udp_c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c.dir/build.make CMakeFiles/udp_c.dir/clean
 .PHONY : CMakeFiles/udp_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp_c_pos.dir
+
+# All Build rule for target.
+CMakeFiles/udp_c_pos.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
+CMakeFiles/udp_c_pos.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=26,27,28 "Built target udp_c_pos"
+.PHONY : CMakeFiles/udp_c_pos.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp_c_pos.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/udp_c_pos.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 0
+.PHONY : CMakeFiles/udp_c_pos.dir/rule
+
+# Convenience name for target.
+udp_c_pos: CMakeFiles/udp_c_pos.dir/rule
+.PHONY : udp_c_pos
+
+# clean rule for target.
+CMakeFiles/udp_c_pos.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_pos.dir/build.make CMakeFiles/udp_c_pos.dir/clean
+.PHONY : CMakeFiles/udp_c_pos.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp_c_vel.dir
+
+# All Build rule for target.
+CMakeFiles/udp_c_vel.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
+CMakeFiles/udp_c_vel.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=29,30,31 "Built target udp_c_vel"
+.PHONY : CMakeFiles/udp_c_vel.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp_c_vel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/udp_c_vel.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 0
+.PHONY : CMakeFiles/udp_c_vel.dir/rule
+
+# Convenience name for target.
+udp_c_vel: CMakeFiles/udp_c_vel.dir/rule
+.PHONY : udp_c_vel
+
+# clean rule for target.
+CMakeFiles/udp_c_vel.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel.dir/build.make CMakeFiles/udp_c_vel.dir/clean
+.PHONY : CMakeFiles/udp_c_vel.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp_c_vel_a2.dir
+
+# All Build rule for target.
+CMakeFiles/udp_c_vel_a2.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
+CMakeFiles/udp_c_vel_a2.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=32,33,34 "Built target udp_c_vel_a2"
+.PHONY : CMakeFiles/udp_c_vel_a2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp_c_vel_a2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/udp_c_vel_a2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 0
+.PHONY : CMakeFiles/udp_c_vel_a2.dir/rule
+
+# Convenience name for target.
+udp_c_vel_a2: CMakeFiles/udp_c_vel_a2.dir/rule
+.PHONY : udp_c_vel_a2
+
+# clean rule for target.
+CMakeFiles/udp_c_vel_a2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_vel_a2.dir/build.make CMakeFiles/udp_c_vel_a2.dir/clean
+.PHONY : CMakeFiles/udp_c_vel_a2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp_c_cur.dir
+
+# All Build rule for target.
+CMakeFiles/udp_c_cur.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
+CMakeFiles/udp_c_cur.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=17,18,19 "Built target udp_c_cur"
+.PHONY : CMakeFiles/udp_c_cur.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp_c_cur.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/udp_c_cur.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 0
+.PHONY : CMakeFiles/udp_c_cur.dir/rule
+
+# Convenience name for target.
+udp_c_cur: CMakeFiles/udp_c_cur.dir/rule
+.PHONY : udp_c_cur
+
+# clean rule for target.
+CMakeFiles/udp_c_cur.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cur.dir/build.make CMakeFiles/udp_c_cur.dir/clean
+.PHONY : CMakeFiles/udp_c_cur.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp_c_cvp.dir
+
+# All Build rule for target.
+CMakeFiles/udp_c_cvp.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
+CMakeFiles/udp_c_cvp.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=20,21,22 "Built target udp_c_cvp"
+.PHONY : CMakeFiles/udp_c_cvp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp_c_cvp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/udp_c_cvp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 0
+.PHONY : CMakeFiles/udp_c_cvp.dir/rule
+
+# Convenience name for target.
+udp_c_cvp: CMakeFiles/udp_c_cvp.dir/rule
+.PHONY : udp_c_cvp
+
+# clean rule for target.
+CMakeFiles/udp_c_cvp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_cvp.dir/build.make CMakeFiles/udp_c_cvp.dir/clean
+.PHONY : CMakeFiles/udp_c_cvp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/udp_c_names.dir
+
+# All Build rule for target.
+CMakeFiles/udp_c_names.dir/all: thirdParty/aios_api/CMakeFiles/aios.dir/all
+CMakeFiles/udp_c_names.dir/all: thirdParty/aios_api/thirdParty/SingleAxisMotion/CMakeFiles/single_axis_motion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles --progress-num=23,24,25 "Built target udp_c_names"
+.PHONY : CMakeFiles/udp_c_names.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/udp_c_names.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/udp_c_names.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fu/ActuatorTest/udp_robot_state/build/CMakeFiles 0
+.PHONY : CMakeFiles/udp_c_names.dir/rule
+
+# Convenience name for target.
+udp_c_names: CMakeFiles/udp_c_names.dir/rule
+.PHONY : udp_c_names
+
+# clean rule for target.
+CMakeFiles/udp_c_names.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/udp_c_names.dir/build.make CMakeFiles/udp_c_names.dir/clean
+.PHONY : CMakeFiles/udp_c_names.dir/clean
 
 #=============================================================================
 # Target rules for target thirdParty/aios_api/CMakeFiles/aios.dir
